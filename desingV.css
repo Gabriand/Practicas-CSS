@@ -1,4 +1,75 @@
+/* colors primary
+    #2575cc blue
+    #eef3fa write bone
+
+    colors secondary
+    #85a8d1
+    #b9c2e2
+*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #f3f3f3;
+    align-items: center;
+    padding: 5px;
+    padding-right: 75px;
+}
+
+.inicio{
+    display: flex;
+    color: #2575cc;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 25px;
+}
+
+header h3{
+    font-weight: 700;
+}
+
+nav a{
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    color: #85a8d1;
+}
+
+.btn1{
+    object-position: right;
+    border-radius: 4px;
+    border: none;
+    background-color: #2575cc;
+    color: #f3f3f3;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .inicio{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+}
+
+
