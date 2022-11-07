@@ -18,6 +18,11 @@ a {
     color: gray;
 }
 
+p{
+    color: gray;
+    font-weight: 200;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -72,4 +77,54 @@ nav a:hover{
 
 }
 
+
+/*---------------------------------*/
+
+footer{
+    padding: 30px 30px 20px 30px;
+    background-color: #f3f3f3;
+    text-align: center;
+    color: #2575cc;
+}
+
+footer p{
+    font-weight: 600;
+}
+
+.footer1{
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.footer2{
+    padding: 5px;
+    padding-left: 40px;
+    line-height: 20px;
+    text-align: left;
+    font-size: small;
+}
+
+.info1{
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+
+table td{
+    padding-top: 10px;  
+    padding-right: 30px;  
+    font-size: small;
+}
+
+.final{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-left: 30px;
+    margin-right: 105px;
+}
 
