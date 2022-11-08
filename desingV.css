@@ -1,14 +1,16 @@
 /* colors primary
     #2575cc blue
+    #163172 blue page
     #eef3fa write bone
 
     colors secondary
     #85a8d1
     #b9c2e2
 */
-
+/*----------------header-------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     margin: 0;
 }
@@ -58,27 +60,35 @@ nav a:hover{
     object-position: right;
     border-radius: 4px;
     border: none;
-    background-color: #2575cc;
+    background-color: #163172;
     color: #f3f3f3;
     padding: 10px 20px 10px 20px;
     font-weight: 600;
 }
 
-@media (max-width: 500px){
-    header{
-        flex-direction: column;
-        padding-left: 10px;
-    }
-    
-    .inicio{
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
+/*--------------main---------------------*/
 
+.main1{
+    margin-left: 60px;
+}
+
+.titlemain{
+    color: #163172;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.parrafomain1{
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
 }
 
 
-/*---------------------------------*/
+
+
+
+/*----------------footer-----------------*/
 
 footer{
     padding: 30px 30px 20px 30px;
@@ -113,6 +123,10 @@ footer p{
     margin-top: -90px;
 }
 
+table th{
+    color: #163172;
+}
+
 table td{
     padding-top: 10px;  
     padding-right: 30px;  
@@ -127,4 +141,22 @@ table td{
     margin-left: 30px;
     margin-right: 105px;
 }
+
+/*------------responsive-------------*/
+/*
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .inicio{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}*/
 
