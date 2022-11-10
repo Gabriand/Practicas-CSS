@@ -1,11 +1,10 @@
 /* colors primary
-    #2575cc blue
-    #163172 blue page
-    #eef3fa write bone
+    #1f3e72 blue titles
+    #2b4bc9 blue 
 
-    colors secondary
-    #85a8d1
-    #b9c2e2
+    #fefefe header
+    #ffffff body
+    #eef3ff footer
 */
 /*----------------header-------------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
@@ -29,7 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     min-height: 70px;
-    background-color: #f3f3f3;
+    background-color: #fefefed8;
     align-items: center;
     padding: 5px;
     padding-right: 75px;
@@ -37,7 +36,7 @@ header{
 
 .inicio{
     display: flex;
-    color: #2575cc;
+    color: #2b4bc9;
     align-items: center;
     padding-left: 75px;
     padding-right: 25px;
@@ -60,41 +59,135 @@ nav a:hover{
     object-position: right;
     border-radius: 4px;
     border: none;
-    background-color: #163172;
-    color: #f3f3f3;
+    background-color: #2b4bc9e7;
+    color: #fefefe;
     padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    box-shadow: -0.5px 0.5px 50px -5px #1f3e72;
+}
+
+/*--------------main parte1---------------------*/
+.parte1{
+    background-color: #ffffff; /*#ffffff*/
+    min-height: 700px;
+    z-index: -2;
+    position: relative;
+}
+
+.main1{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 490px;
+    height: 450px;
+}
+
+.titleMain{
+    color: #1f3e72;
+    font-size: 45px;
+    min-width: 80%;
+    height: 25%;
+    margin: 50px 0px 0px 25px;
+    display: flex;
+    text-align:justify;
+    justify-content: center;
+}
+
+.parrafoMain1{
+    min-width: 70%;
+    height: 15%;
+    font-size: 80%;
+    justify-content: center;
+    margin: -75px 0px 0px 75px;
+}
+
+.info0{
+    margin: -80px 0px 0px 60px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    gap: 0px 30px;
+}
+
+.info0 ul li{
+    max-width: 150px;
+    list-style: none;
+    color: #1f3e72;
+    font-size: 80%;
+}
+
+section h3{
+    margin: 50px 0px 20px 80px;
+    padding: 0px 0px 10px 0px;
+    font-size: 15px;
+    color: #1f3e72;
     font-weight: 600;
 }
 
-/*--------------main---------------------*/
-
-.main1{
-    margin-left: 60px;
+.horario{
+    background-color: #ffffffd8;
+    box-shadow: -0.5px 0.5px 50px -20px #1f3e72;
+    min-width: 700px;
+    min-height: 11%;
+    margin: 0px 0px 0px 60px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.titlemain{
-    color: #163172;
-    font-size: 40px;
-    margin-bottom: 10px;
+.horario table tr th{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 90px 0px 0px;
+    margin: 0px 0px -20px 0px;
 }
 
-.parrafomain1{
-    font-weight: 400;
-    line-height: 22px;
-    margin-bottom: 30px;
+.horario table td{
+    color: #1f3e72;
+    font-weight: 600;
+    text-align: justify;
+    padding: 5px 0px 0px 0px; 
 }
 
+.submit1{
+    display: flex;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    margin: 0px 0px 0px 0px;
+    background-color: #2b4bc9e7;
+    box-shadow: 0px 2px 40px #1f3e72;
+    color: #fefefe;
+    font-weight: 600;
+}
+
+.vacunaImg{
+    float: right;
+    margin: -525px 0px 0px 0px;
+    position: relative;
+    z-index: -1;
+}
+
+/*-------------------Main Parte2-----------------*/
 
 
 
 
-/*----------------footer-----------------*/
+
+
+/*-------------------footer-------------------------*/
 
 footer{
     padding: 30px 30px 20px 30px;
-    background-color: #f3f3f3;
+    background-color: #eef3ff;
     text-align: center;
-    color: #2575cc;
+    color: #2b4bc9;
 }
 
 footer p{
@@ -116,7 +209,7 @@ footer p{
     font-size: small;
 }
 
-.info1{
+.info4{
     font-weight: 600;
     text-align: justify;
     margin-left: 500px;
@@ -124,7 +217,7 @@ footer p{
 }
 
 table th{
-    color: #163172;
+    color: #1f3e72;
 }
 
 table td{
