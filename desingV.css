@@ -68,7 +68,7 @@ nav a:hover{
 
 /*--------------main parte1---------------------*/
 .parte1{
-    background-color: #ffffff; /*#ffffff*/
+    background-color: #ffffff; 
     min-height: 700px;
     z-index: -2;
     position: relative;
@@ -175,6 +175,38 @@ section h3{
 }
 
 /*-------------------Main Parte2-----------------*/
+.titleMain2{
+    background-color: #ffffff;
+    color: #1f3e72;
+    margin: 0px 0px 0px 70px;
+}
+
+.titleMain2 h2{
+    font-size: 30px;
+}
+
+.titleMain2 p{
+    font-size: 80%;
+    margin: 20px 0px 0px 0px;
+}
+
+/*--------------------------------------------*/
+
+.info1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px 40px 0px;
+}
+
+.info1 table tr th{
+    border: 1px solid black;
+}
+
+.info1 table tr td{
+    border: 1px solid black;
+}
+
 
 
 
