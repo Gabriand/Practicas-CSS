@@ -289,38 +289,6 @@ section h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-/*
-.ul li ul:hover {
-    display: none;
-}
-
-/*
-.ul ul:hover {
-    display: none;
-}
-*/
-/*
-.ul li ul {
-    display:none;
-    position:absolute;
-    top:100%;
-    left:0;
-    background:#eee;
-    padding:0;
-}
-
-
-.ul li ul p {
-    float:none;
-    width:150px
-}
-
-
-.ul li:hover > ul {
-    display: block;
-}
-*/
-/*-------------------Main part4----------------------*/
 
 .titleMain4 {
     width: 50%;
